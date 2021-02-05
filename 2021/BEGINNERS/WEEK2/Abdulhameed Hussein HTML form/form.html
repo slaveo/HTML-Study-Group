@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8"
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+<head>
+	<title>forms exercise</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h1>sign up page</h1>
+	<section>
+		<form action="/action.php">
+			
+			<label for="user-pics">
+				User Pics:
+			</label>
+			<br>
+			<input type="image" src="user_pic.png" height="70px" width="70px">
+			<br><br>
+			
+		 <label for="fname">
+		 First	Name:
+		 </label>
+		 <br>
+		 <input type="text" required>
+		 <br>
+		 <label for="lname">
+		 	Last Name:
+		 </label>
+		 <br>
+			<input type="text" required>
+			<br><br>
+			
+			<label for="gender">
+				Gender:
+			</label>
+			<br>
+			<input type="radio" name="gender">Male
+			<br>
+			<input type="radio" name="gender">Female
+			<br><br>
+			<label for="date">
+				Date Of Birth:
+			</label>
+			<br>
+			<input type="date" required>
+			<br><br>
+			
+			<label for="skills">
+				Your Skills:
+			</label>
+			<br>
+			<input type="checkbox">Web Development
+			<br>
+			<input type="checkbox">Mobile Development
+			<br>
+			<input type="checkbox">Game Development
+			<br>
+			<input type="checkbox">Graphic Design
+			<br>
+			<input type="checkbox">UI/UX
+			<br>
+			<input type="checkbox">Web Designing
+			<br><br>
+			
+			<label for="email">
+				Email:
+			</label>
+			<br>
+			<input type="email">
+			<br><br>
+			
+			<label for="password">
+				Password:
+			</label>
+			<br>
+			<input type="password">
+			<br><br>
+			
+			<textarea style="width:190px; height:150px; padding:5px;">
+				tell us about yourself and why you want to join us.
+		 </textarea>
+		 <br><br>
+		 
+		 <input type="submit" value="Sign Up">
+			
+		</form>
+	</section>
+</body>
+</html>
